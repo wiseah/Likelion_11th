@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  --mainLogoColor: #ff7710;
+  --backgroundColor: #171717;
+  --mainTextColor: #ffffff;
+  --mainTextHover: rgba(255, 255, 255, 0.5);
+  --subTextColor: #828282;
+  --Green: #27ae60;
+  --GreenHover: rgba(39, 174, 96, 0.5);
+  --Gray: #4f4f4f;
+  --bigCircle: #212121;
+  --cardColor: #535353;
+  --navTitleFontSize: 36px;
+  --textFontSize: 18px;
+  --titleFontSize: 48px;
+  --skillTitleSize: 72px;
+  --skillTextSize: 24px;
+}
+
+html {
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1440px;
+  color: var(--mainTextColor);
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.mainTitle {
+  font-size: var(--navTitleFontSize);
+  font-weight: bold;
+  color: var(--mainLogoColor);
+}
+.subTitle {
+  font-size: var(--textFontSize);
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subTitle a:hover {
+  color: var(--mainTextHover);
+  transition: all 0.3s;
+}
+nav a {
+  color: var(--mainTextColor);
+}
+
+.main_title {
+  font-size: var(--titleFontSize);
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+.main_subTitle {
+  color: var(--Green);
+  font-size: var(--skillTextSize);
+}
+.mgb5 {
+  margin-bottom: 5px;
+}
+.mgb70 {
+  margin-bottom: 70px;
+}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: var(--mainTextColor);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  color: var(--Gray);
+  margin-bottom: 50px;
+}

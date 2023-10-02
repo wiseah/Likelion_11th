@@ -1,0 +1,165 @@
+.introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+  width: 1000px;
+}
+.introduce_img_content {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  border-radius: 50%;
+  background-color: var(--bigCircle);
+  justify-content: center;
+  align-items: center;
+}
+.introduce_title {
+  font-size: var(--titleFontSize);
+  font-weight: bold;
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+.introduce_subTitle {
+  color: var(--subTextColor);
+  margin-bottom: 35px;
+}
+.introduce_button {
+  width: 130px;
+  height: 40px;
+  background-color: var(--Green);
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.introduce_button:hover {
+  background-color: var(--GreenHover);
+  color: var(--mainTextHover);
+}
+.introduce_img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_text {
+  width: 745px;
+  text-align: center;
+}
+
+.main_info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1300px;
+  margin-top: 50px;
+}
+
+.main_info_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--textFontSize);
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.main_info_title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.big-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--bigCircle);
+  position: relative;
+  margin-bottom: 15px;
+}
+.small-circle {
+  width: 12px;
+  height: 12px;
+  background-color: var(--Green);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.big-circle:hover > .small-circle {
+  width: 100px;
+  height: 100px;
+}
+.position {
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  width: 300px;
+}
+.main_whatIDo {
+  display: flex;
+  width: 1200px;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+
+.main_whatIDo_card {
+  width: 350px;
+  height: 230px;
+  background-color: var(--bigCircle);
+  font-size: var(--navTitleFontSize);
+  color: var(--cardColor);
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid var(--bigCircle);
+}
+.main_whatIDo_card:hover {
+  border-bottom: 5px solid var(--Green);
+  transition: all 0.4s;
+}
+
+.main_whatIDo_content {
+  margin-left: 50px;
+  position: absolute;
+}
+.main_whatIDo_text {
+  margin-top: 15px;
+}
+
+.main_skills {
+  width: 1120px;
+  height: 240px;
+  background-color: var(--bigCircle);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main_skills_title {
+  font-size: var(--skillTitleSize);
+  color: var(--Gray);
+}
+
+.main_skills_title:hover {
+  color: var(--mainTextHover);
+  transition: all 0.3s;
+}
+
+.main_skills_text {
+  font-size: var(--skillTextSize);
+  color: var(--Green);
+}
+
